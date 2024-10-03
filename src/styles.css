@@ -1,0 +1,75 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #14161E;
+}
+
+h1,h2,h3,h4,h5 {
+    font-weight: 200;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+hr{
+    color: white;
+}
+
+.navbar-brand {
+    font-weight: 200;
+    color: #aff9fe !important;
+}
+
+.block {
+    display:block;
+}
+
+.cursor{
+    cursor:pointer;
+}
+
+.navbar-brand i {
+    margin-right: 10px; /* Ajusta el valor según el espacio que desees del icono  */
+}
+
+
+.btn-buscar {
+    background: linear-gradient(45deg, #ff6ec4, #7873f5); 
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 9px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease; 
+  }
+  
+  .btn-buscar:hover {
+    background: linear-gradient(45deg, #ff6ec4, #65d2e9); /* Cambia a gradiente rosa y azul al pasar el ratón */
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+  }
+  
+  .btn-buscar:active {
+    transform: scale(1); /* Vuelve a tamaño normal al hacer click */
+  }
+
+  .input-buscar {
+    background-color: #2e2d2dbf; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    border: 2px solid #f3c9e2; /* Borde rosa */
+    border-radius: 30px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño del texto */
+    width: 100%; /* Ocupa todo el ancho posible */
+    box-shadow: 0px 4px 10px rgba(93, 89, 89, 0.3); /* Sombra para resaltar */
+    outline: none; /* Quitar el borde por defecto al hacer click */
+    transition: box-shadow 0.3s ease, border-color 0.3s ease; /* Efectos de transición */
+  }
+  
+  .input-buscar:focus {
+    border-color: #7873f5; /* Cambiar el borde al hacer focus */
+    box-shadow: 0px 4px 15px rgba(120, 115, 245, 0.5); /* Sombra más grande cuando se selecciona */
+  }
+  
+  

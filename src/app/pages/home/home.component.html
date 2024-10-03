@@ -1,0 +1,17 @@
+<h1>Cartelera</h1>
+<!-- Muestra una fila de películas solo si la lista de películas no está vacía -->
+<div class="row" *ngIf="movies.length > 0">
+
+
+    <div class="col">
+        <!-- Componente de presentación en forma de carrusel para mostrar las películas -->
+        <app-slideshow [movies]="movies"></app-slideshow>
+
+    </div>
+
+</div>
+
+<h1 class="mt-5">Estrenos</h1>
+
+<!-- Componente que muestra los posters de las películas en formato de lista -->
+<app-peliculas-poster class="animate__animated animate__fadeIn" [movies]="movies"></app-peliculas-poster>

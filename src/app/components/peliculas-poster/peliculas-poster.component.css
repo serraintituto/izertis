@@ -1,0 +1,23 @@
+h3 {
+    font-size: 1.2rem; /* Cambia a una unidad relativa para mejor responsividad */
+    font-weight: bold; /* Resaltar el título */
+    color: #ffffff; /* Asegúrame de que el texto sea visible en fondos oscuros */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Agrega un leve efecto de sombra */
+    margin: 0; /* Elimina el margen predeterminado para un mejor alineamiento */
+}
+
+.stars-container {
+    display: flex;
+    align-items: center; /* Centra verticalmente las estrellas */
+    margin-top: 5px; /* Agrega un espacio entre el título y las estrellas */
+}
+
+.fa-star {
+    margin-right: 4px; /* Aumenta un poco el espaciado entre las estrellas */
+    color: #edb867; /* Color dorado para las estrellas */
+    transition: color 0.3s ease; /* Agrega una transición suave para efectos hover */
+}
+
+.fa-star:hover {
+    color: #ffdf00; /* Color más brillante al pasar el ratón sobre las estrellas */
+}
